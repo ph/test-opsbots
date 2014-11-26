@@ -19,7 +19,7 @@ Gem::Specification.new do |spec|
   spec.require_paths = ["lib"]
 
   if RUBY_PLATFORM == 'java'
-    s.platform = RUBY_PLATFORM
+    spec.platform = RUBY_PLATFORM
   end
 
   spec.add_development_dependency "bundler", "~> 1.7"
