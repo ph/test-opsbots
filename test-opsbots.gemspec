@@ -5,7 +5,7 @@ require 'test/opsbots/version'
 
 Gem::Specification.new do |spec|
   spec.name          = "test-opsbots"
-  spec.version       = "0.0.28" #Test::Opsbots::VERSION
+  spec.version       = Test::Opsbots::VERSION
   spec.authors       = ["Pier-Hugues Pellerin"]
   spec.email         = ["phpellerin@gmail.com"]
   spec.summary       = 'This gem is only a test and should not be used for anything'
